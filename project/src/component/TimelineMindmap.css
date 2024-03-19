@@ -1,0 +1,30 @@
+.ant-tree-title{
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-tree .ant-tree-node-content-wrapper {
+    line-height: 49px;
+    user-select: none;
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-tree .ant-tree-indent-unit {
+    display: inline-block;
+    width: 162px;
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected, :where(.css-dev-only-do-not-override-djtmh8).ant-tree .ant-tree-checkbox+span.ant-tree-node-selected {
+    background-color: transparent;
+}
+:where(.css-dev-only-do-not-override-djtmh8).ant-tree .ant-tree-switcher {
+    position: relative;
+    flex: none;
+    align-self: stretch;
+    width: 26px;
+    margin: 0;
+    line-height: 49px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.3s;
+    border-radius: 6px;
+}
