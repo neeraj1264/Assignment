@@ -4,6 +4,7 @@
     padding: 1rem;
     margin: 1rem;
 }
+
 :where(.css-dev-only-do-not-override-djtmh8).ant-tree .ant-tree-node-content-wrapper {
     line-height: 49px;
     user-select: none;
@@ -27,4 +28,9 @@
     user-select: none;
     transition: all 0.3s;
     border-radius: 6px;
+}
+@media (max-width: 768px) {
+    .ant-tree-title{
+        font-size: .8rem;
+    }
 }

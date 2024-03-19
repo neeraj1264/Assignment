@@ -18,6 +18,28 @@ const App = () => {
               key: '3',
               title: 'B2C',
               description: 'This phase involves conducting research to gather information.',
+              children: [
+                {
+                  key: '18',
+                  title: 'online',
+                  description: 'This phase involves conducting research to gather information.',
+                },
+                {
+                  key: '19',
+                  title: 'Interview ',
+                  description: 'This phase involves conducting research to gather information.',
+                },
+                {
+                  key: '20',
+                  title: 'Public data',
+                  description: 'This phase involves conducting research to gather information.',
+                },
+                {
+                  key: '21',
+                  title: 'Health',
+                  description: 'This phase involves conducting research to gather information.',
+                },
+              ],
             },
             {
               key: '4',
