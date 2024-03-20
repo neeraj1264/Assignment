@@ -4,14 +4,16 @@
     padding: 1rem;
     margin: 1rem;
 }
-
+.ant-tree-title:hover{
+    background-color: red;
+}
 :where(.css-dev-only-do-not-override-djtmh8).ant-tree .ant-tree-node-content-wrapper {
     line-height: 49px;
     user-select: none;
 }
 :where(.css-dev-only-do-not-override-djtmh8).ant-tree .ant-tree-indent-unit {
     display: inline-block;
-    width: 162px;
+    width: 50px;
 }
 :where(.css-dev-only-do-not-override-djtmh8).ant-tree .ant-tree-node-content-wrapper.ant-tree-node-selected, :where(.css-dev-only-do-not-override-djtmh8).ant-tree .ant-tree-checkbox+span.ant-tree-node-selected {
     background-color: transparent;
